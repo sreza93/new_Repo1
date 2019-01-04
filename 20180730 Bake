@@ -1,0 +1,11 @@
+0	Event begin time: 0:00:00	 Event name: System Init
+1	Event begin time: 0:00:00	 Event name: TCON Init Ramps
+2	Event begin time: 0:00:00	 Event name: TCON Mains Switch On
+3	Event begin time: 0:00:00	 Event name: CHSSCON Pump On
+4	Event begin time: 0:00:00	 Event name: MFC Flow Rate	 Channel Index: 1	 Flow rate: 100
+5	Event begin time: 0:00:00	 Event name: TCON Linear Ramp	 Zone indx list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]	 Final T:873.15	 Duration: 1200
+6	Event begin time: 0:20:00	 Event name: TCON Linear Ramp	 Zone indx list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]	 Final T: 873.15	 Duration: 1200
+7	Event begin time: 0:40:00	 Event name: TCON Mains Switch Off
+End of recipe
+Number of events:  8
+Total duration  :  0:40:00

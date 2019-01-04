@@ -1,0 +1,18 @@
+A=csvread('C:\Users\SOUMEN\Downloads\20180715_184822.csv');
+x1=(A(:,2))/60; % Time axis Test 1 in minutes
+y1=(A(:,16))-273; % Temperature Test 1 Zone 5 in degree C
+plot(x1,y1) % Plot Test 1
+
+hold on;
+
+B=csvread('C:\Users\SOUMEN\Downloads\20180716_114209.csv');
+x2=(B(:,2))/60; % Time axis Test 2 in minutes
+y2=(B(:,16))-273; % Temperature Test 2 Zone 5 in degree C
+plot(x2,y2) % Plot Test 2
+title('Temperature profile Test 1 & Test 2')
+legend('zone 5 Test 1','zone 5 Test 2')
+xlabel('Time in minutes')
+ylabel('Temp in deg C')
+grid on;
+
+saveas(gcf,'Temp Test 1 & 2.pdf')
